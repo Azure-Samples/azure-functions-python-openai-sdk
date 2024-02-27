@@ -7,12 +7,12 @@ products:
 - azure-sdks
 - azure-functions
 description: "Azure Function App integrating OpenAI libraries, designed to automate tasks and offer AI-driven solutions"
-title: Using Azure Open AI for automations with Azure Functions
+title: Using Azure OpenAI for automations with Azure Functions
 author: gavin-aguiar
 urlFragment: azure-functions-python-use-open-ai
 ---
 
-# Using Azure Open AI for automations with Azure Functions
+# Using Azure OpenAI for automations with Azure Functions
 
 ai-personal-assistant is an Azure Function App integrating OpenAI libraries, designed to automate tasks and offer AI-driven solutions. This project harnesses the power of AI to streamline processes and enhance functionality in various applications.
 
@@ -55,9 +55,9 @@ The "ai-personal-assistant" project is an innovative solution that combines Azur
 or as app settings in Azure Function App
     - OPENAI_API_KEY -  The API key for your Azure OpenAI resource; For Open AI refer [platform API Key](https://platform.openai.com/api-keys).
     - OPENAI_API_TYPE - set this to `azure` for azure API
-    - OPENAI_API_BASE - The base URL for your Azure OpenAI resource.  You can find this in the Azure portal under your Azure OpenAI resource for Azure Open AI.
+    - OPENAI_API_BASE - The base URL for your Azure OpenAI resource.  You can find this in the Azure portal under your Azure OpenAI resource for Azure OpenAI.
     - OPENAI_API_VERSION - The API version you want to use: set this to `2022-12-01` for the released version. Refer [this doc](https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#embeddings) for latest released version for embeddings.
-    - OPENAI_DEPLOYMENT_NAME - set this to deployment name for Azure Open AI and model name (`text-embedding-ada-002`) for Open AI API.
+    - OPENAI_DEPLOYMENT_NAME - set this to deployment name for Azure OpenAI and model name (`text-embedding-ada-002`) for Open AI API.
     - CosmosConnectionString - Connection String of Cosmos Database for Mongo DB (vCore)
     - DB_NAME - Database Name in Mongo DB
     - COLLECTION_NAME - Collection Name in the Mongo DB.
